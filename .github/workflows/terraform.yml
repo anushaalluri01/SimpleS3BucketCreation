@@ -1,12 +1,16 @@
 name: Terraform Deployment
 
 on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
+  # To Trigger the workflow Automatically on push or pull request to main branch
+  # push:
+  #   branches:
+  #     - main
+  # pull_request:
+  #   branches:
+  #     - 
+    
+  # To Trigger the workflow Manually
+
   workflow_dispatch: # Allows manual triggering
     inputs:
       action:
