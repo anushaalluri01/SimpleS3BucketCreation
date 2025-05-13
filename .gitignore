@@ -1,6 +1,6 @@
 # Ignore Terraform local state
 *.tfstate
-*.tfstate.backup
+*.tfstate.*
 
 # Ignore crash logs
 crash.log
@@ -9,3 +9,8 @@ crash.log
 # Ignore local Terraform settings
 .terraform/
 .terraform.lock.hcl
+
+*.backup
+*.exe
+*.pem
+*.plan
