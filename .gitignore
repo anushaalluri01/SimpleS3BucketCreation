@@ -1,6 +1,6 @@
 # Ignore Terraform local state
-*.tfstate
-*.tfstate.*
+#*.tfstate
+#*.tfstate.*
 
 # Ignore crash logs
 crash.log
