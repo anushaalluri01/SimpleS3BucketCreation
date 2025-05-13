@@ -1,7 +1,7 @@
 variable "bucket_name" {
   description = "The name of the S3 bucket (must be globally unique)"
   type        = string
-  default     = "my-simple-terraform-bucket-12345"  # You can override this with -var option
+  default     = "my-simple-terraform-bucket-12345" # You can override this with -var option
 }
 
 variable "region" {
