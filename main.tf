@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "aws" {
-  region = var.region
+  region = "us-east-1"
 }
 
 # S3 Bucket (Free-tier, very low cost if not heavily used)
